@@ -11,7 +11,7 @@ $username = '(6+13)(2)(8+8)(12+12)(12)_(3)G@(6+14)(6+6)(6+8)(6+6+7)(6+8)(8+12)(6
 $password = '(6+6+12)H(6+6+14)&U%(5+5+3)Q(8+8+12)'
 ```
 
-As you can see, some characters such as `_` `@` and `.` are note encoded and neither are uppercase letters such as `H` and `U`.
+As you can see, some characters such as `_` `@` and `.` are not encoded and neither are uppercase letters such as `H` and `U`.
 This means that we can assume that only a..z (lowercase letters) are actually encoded.
 
 After a little think I decided to check if perhaps the numbers are used as the nth digits of the number [Pi](https://en.wikipedia.org/wiki/Pi).
@@ -33,3 +33,5 @@ Together that makes `ralph` which happens to be the first name of the participan
 
 So if we decode both the username and passwords strings the output seems valid:
 ![PowerShell console window showing the decoded strings](/screenshot.png?raw=true "Decoded Strings Screenshot")
+
+Source for the Decode script is [here](/DecodeString.ps1)
