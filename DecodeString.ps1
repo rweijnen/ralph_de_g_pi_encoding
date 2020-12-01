@@ -4,9 +4,6 @@ function DecodeString([string]$EncodedString)
 	# array of a..z with a dummy character (space) to make a start at index 1
 	$alphabet = ' abcdefghijklmnopqrstuvwxyz'
 	
-	# get pi 
-	$pi = [math]::pi.ToString()
-	
 	# convert to string, remove digit and prepend a space to make index start at 1
 	$pi = ' ' + [math]::pi.ToString().Replace('.', '')
 	
