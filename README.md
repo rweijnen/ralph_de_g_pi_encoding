@@ -7,7 +7,8 @@ I thought it would be fun to decode/decipher it ;-)
 Here are the example string from the screenshot:
 
 ```$username = '(6+13)(2)(8+8)(12+12)(12)_(3)G@(6+14)(6+6)(6+8)(6+6+7)(6+8)(8+12)(6+3)(2)(6)(14+5).(1)(12)'
-$password = '(6+6+12)H(6+6+14)&U%(5+5+3)Q(8+8+12)'```
+$password = '(6+6+12)H(6+6+14)&U%(5+5+3)Q(8+8+12)'
+```
 
 As you can see, some characters such as `_` `@` and `.` are note encoded and neither are uppercase letters such as `H` and `U`.
 This means that we can assume that only a..z (lowercase letters) are actually encoded.
