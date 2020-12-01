@@ -15,7 +15,9 @@ As you can see, some characters such as `_` `@` and `.` are note encoded and nei
 This means that we can assume that only a..z (lowercase letters) are actually encoded.
 
 After a little think I decided to check if perhaps the numbers are used as the nth digits of the number [Pi](https://en.wikipedia.org/wiki/Pi).
+
 `3.1415926535897932384626433..`
+
 If we test that on the first "letter" we take `(6+13)` which would mean the 6th digit which has the value 9 and the 13th digit which also has the value 9.
 `9 + 9 = 18` and the 18th letter in the alphabet is `r`
 
